@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "timeLinr",
+    "style": "sass",
+    "postcss": false
+  }
+}
