@@ -14,6 +14,7 @@ class AppComponent extends React.Component {
 }
 
 AppComponent.defaultProps = {
+    yolo: 'loool'
 };
 
 export default AppComponent;

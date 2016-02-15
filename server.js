@@ -1,4 +1,3 @@
-/*eslint no-console:0 */
 'use strict';
 require('core-js/fn/object/assign');
 const webpack = require('webpack');

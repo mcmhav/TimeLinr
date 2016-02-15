@@ -27,14 +27,19 @@ App.propTypes = {
   actions: PropTypes.object.isRequired
 };
 function mapStateToProps(state) {
+  console.log(state);
   /* Populated by react-webpack-redux:reducer */
-  const props = {};
+  const props = {
+    wut: '2fa'
+  };
   return props;
 }
 function mapDispatchToProps(dispatch) {
   /* Populated by react-webpack-redux:action */
   const actions = {};
-  const actionMap = { actions: bindActionCreators(actions, dispatch) };
+  const actionMap = {
+    actions: bindActionCreators(actions, dispatch)
+  };
   return actionMap;
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App);
