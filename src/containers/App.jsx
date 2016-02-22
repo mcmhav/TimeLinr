@@ -27,7 +27,7 @@ App.propTypes = {
   actions: PropTypes.object.isRequired
 };
 function mapStateToProps(state) {
-  console.log(state);
+  console.log('state', state);
   /* Populated by react-webpack-redux:reducer */
   const props = {
     wut: '2fa'
