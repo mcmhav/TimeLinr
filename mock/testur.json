@@ -1,4 +1,4 @@
-export const Pokemon = [{
+[{
     name: 'm',
     locs: [{
         name: 'h',
@@ -20,4 +20,4 @@ export const Pokemon = [{
         from: 1454901003827,
         to: 1454941003827
     }]
-}];
+}]
