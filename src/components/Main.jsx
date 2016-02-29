@@ -3,15 +3,15 @@ require('styles/App.css');
 
 import React from 'react';
 
-class AppComponent extends React.Component {
+const AppComponent = React.createClass({
   render() {
     return (
       <div className="index">
-        <div>Looool</div>
+        <div>Looodf ssdfsdf asd asd ol</div>
       </div>
     );
   }
-}
+})
 
 AppComponent.defaultProps = {
     yolo: 'loool'
