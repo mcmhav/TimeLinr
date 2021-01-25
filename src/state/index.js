@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import todos from '../state/todo/reducer'
-import counter from '../state/counter/reducer'
+import todos from '../todo/reducer';
+import counter from '../counter/reducer';
 
 const reducers = {
     counter,
